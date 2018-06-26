@@ -9,7 +9,7 @@ var mongoose   = require('mongoose');
 const passport = require('passport');
 const UserModel = require('./model/model');
 
-var connectionString = 'mongodb://localhost:27017/local';
+var connectionString =process.env.MONGODB_URI || 'mongodb://localhost:27017/local';
 
 mongoose.connect(connectionString);
 mongoose.connection.on("open", function(ref) {
