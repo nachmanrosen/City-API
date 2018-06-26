@@ -1,0 +1,14 @@
+body {
+  background-color: lightgreen;
+  text-align: center;  
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 40 px;
+}
+div{
+    color: rgb(72, 72, 173);
+    border: solid black 1px;
+}

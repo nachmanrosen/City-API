@@ -1,0 +1,29 @@
+html
+  head
+  body
+h1 The City API
+
+a(href='http://www.distancebetweencities.net')  Distance and Time Calculator
+br
+a(href='https://www.digital-topo-maps.com/county-map/new-jersey.shtml') county map of New Jersey
+br
+
+table
+  tr
+    th City 
+    th County
+    th State
+    th Population
+    th Distance from Lakewood
+    th Time from Lakewood
+  
+   
+
+  each city in cities
+    tr
+      td #{city.name}
+      td #{city.county}
+      td #{city.state}
+      td #{city.population}
+      td #{city.distance}
+      td #{city.time}
