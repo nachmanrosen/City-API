@@ -1,4 +1,5 @@
 # City-API
+Url: http://cities-table.herokuapp.com
 
 This API contains data about cities, including county, state, population , distance and time from Lakewood( according to http://www.distancebetweencities.net/ )
     
